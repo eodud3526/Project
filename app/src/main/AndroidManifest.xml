@@ -6,12 +6,11 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_drug_icon"
-        android:label="약꾹"
+        android:label="의약품 플랫폼"
         android:roundIcon="@drawable/ic_drug_icon"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
@@ -62,11 +61,6 @@
         <activity android:name=".FormSearchActivity"/>
         <activity android:name=".FormMainActivity"/>
         <activity android:name=".RecomMainActivity"/>
-
-        <activity android:name=".SetAlarm"></activity>
-        <activity android:name=".ModifyAlarm"></activity>
-        <receiver
-            android:name=".AlarmReceiver" />
 
         <activity
             android:name=".SideEffectMainActivity">

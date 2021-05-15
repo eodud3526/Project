@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
-        android:text= "약   꾹"
+        android:text= "의약품 플랫폼"
         android:textColor="#000000"
         android:textSize="30sp" />
 

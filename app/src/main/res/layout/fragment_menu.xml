@@ -25,21 +25,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="약 꾹"
+            android:text="의약품 플랫폼"
             android:textColor="#ffffff"
             android:textSize="30sp"
             android:textStyle="bold"/>
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="#ffffff"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:text=" 세상에서 가장 작은 약국 " />
-
 
 
         <LinearLayout
@@ -72,7 +61,7 @@
                     android:id="@+id/textView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/finddrugname"
+                    android:text="이름으로"
                     android:textSize="15sp" />
 
             </LinearLayout>
@@ -98,7 +87,7 @@
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/finddrugshape"
+                    android:text="모양으로"
                     android:textSize="15sp" />
             </LinearLayout>
 
@@ -132,7 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="부작용정보 검색"
+                    android:text="부작용"
                     android:textSize="15sp" />
             </LinearLayout>
 
@@ -156,7 +145,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="증상으로 검색"
+                    android:text="증상으로"
                     android:textSize="15sp" />
             </LinearLayout>
 
@@ -191,7 +180,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/review"
+                    android:text="리뷰"
                     android:textSize="15sp" />
             </LinearLayout>
 
@@ -215,7 +204,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/drugmap"
+                    android:text="약국 위치"
                     android:textSize="15sp" />
             </LinearLayout>
 

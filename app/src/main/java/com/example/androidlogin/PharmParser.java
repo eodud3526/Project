@@ -17,7 +17,7 @@ public class PharmParser {
     TextView text;
 
     XmlPullParser xpp;
-    String key = "gyhnkvw8BuHNtPGQzXT5Nluh3Ri3hGlcpEnheMdjI1gjDbZhPSEpy05ofIMaFu2a96c%2FUX%2FzOVblYrTa%2B%2Fu%2Bjg%3D%3D"; //약국 공공데이터 서비스키
+    String key = "45tjino2la7c%2BD%2BQNIm5f%2B9NAsZ7YLaBeMQ4kYuj6wXR1V%2FtNkMTJlir%2BO5%2FEmAXQ7gaV3mgFTtEsaK%2FjfCMrw%3D%3D"; //약국 공공데이터 서비스키
 
 
     String pharmname;
@@ -35,7 +35,7 @@ public class PharmParser {
             e.printStackTrace();
         }
 
-        String queryUrl = "http://apis.data.go.kr/B551182/pharmacyInfoService/getParmacyBasisList?serviceKey="//요청 URL
+        String queryUrl = "http://apis.data.go.kr/B552657/ErmctInsttInfoInqireService/getParmacyLcinfoInqire?serviceKey="//요청 URL
                 + key +"&numOfRows=100" + "&emdongNm=" + location; //동 이름으로 검색
 
         try {

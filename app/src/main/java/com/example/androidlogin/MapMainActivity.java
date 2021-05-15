@@ -363,9 +363,9 @@ public class MapMainActivity extends AppCompatActivity implements OnMapReadyCall
     //지도 실행됐을때 1초정도 보이는 기본 위치
     public void setDefaultLocation() {
 
-        //디폴트 위치, 서울역으로 지정
-        LatLng DEFAULT_LOCATION = new LatLng(37.553321, 126.972627); //서울역의 위도, 경도
-        String markerTitle = "서울역";
+        //디폴트 위치, 부산역으로 지정
+        LatLng DEFAULT_LOCATION = new LatLng(35.115225, 129.041582); //부산역의 위도, 경도
+        String markerTitle = "부산역";
         String markerSnippet = "현재위치를 보려면 현재위치 버튼을 클릭하세요!";
 
         if (currentMarker != null) currentMarker.remove();
@@ -574,7 +574,7 @@ public class MapMainActivity extends AppCompatActivity implements OnMapReadyCall
 
         new NRPlaces.Builder()
                 .listener(MapMainActivity.this)
-                .key("AIzaSyDd9ZoPqAJSM9VH0Sbun-MKeS2JMl--wBs")
+                .key("AIzaSyDd9ZoPqAJSM9VH0Sbun-MKeS2JMl--wBs") // Google API
                 .latlng(location.latitude, location.longitude)//현재 위치
                 .radius(2500)// 반경
                 .type(PlaceType.PHARMACY) //약국

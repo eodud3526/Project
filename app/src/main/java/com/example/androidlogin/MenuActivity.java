@@ -79,12 +79,12 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         // 위젯에 대한 참조
         bt_tab1 = findViewById(R.id.bt_tab1);
         bt_tab2 = findViewById(R.id.bt_tab2);
-        bt_tab3 = findViewById(R.id.bt_tab3);
+        //bt_tab3 = findViewById(R.id.bt_tab3);
 
         // 탭 버튼에 대한 리스너 연결
         bt_tab1.setOnClickListener(this);
         bt_tab2.setOnClickListener(this);
-        bt_tab3.setOnClickListener(this);
+        //bt_tab3.setOnClickListener(this);
 
         // 어느 프레그먼트를 처음으로 프레임레이아웃에 띄울 것인지를 결정
         callFragment(FRAGMENT2);
@@ -153,12 +153,6 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 // FRAGMENT 2 보여줌
                 callFragment(FRAGMENT2);
                 break;
-            // 세번째 tab 클릭시
-            case R.id.bt_tab3 :
-                // FRAGMENT 3 보여줌
-                callFragment(FRAGMENT3);
-                break;
-
         }
     }
 
@@ -181,12 +175,6 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 transaction.commit();
                 break;
 
-            case 3:
-                // '알람'프래그먼트 호출
-                FragmentAlarm fragmentAlarm = new FragmentAlarm();
-                transaction.replace(R.id.fragment_container, fragmentAlarm);
-                transaction.commit();
-                break;
         }
 
     }

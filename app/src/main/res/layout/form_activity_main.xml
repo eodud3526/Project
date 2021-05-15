@@ -23,7 +23,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:text="@string/SearchList"
+                android:text="모양 검색"
                 android:textSize="30sp"
                 android:layout_weight="1"
                 android:layout_marginLeft="10dp"
@@ -67,7 +67,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="45dp"
+            android:layout_height="30dp"
             android:orientation="horizontal">
 
             <Button
@@ -138,7 +138,7 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="45dp"
+            android:layout_height="30dp"
             android:orientation="horizontal">
             <Button
                 android:id="@+id/color_btn9"
@@ -234,7 +234,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="45dp"
+            android:layout_height="30dp"
             android:orientation="horizontal">
             <Button
                 android:id="@+id/shape_btn1"
@@ -287,7 +287,7 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="45dp"
+            android:layout_height="30dp"
             android:orientation="horizontal">
             <Button
                 android:id="@+id/shape_btn7"
@@ -411,7 +411,7 @@
             android:orientation="horizontal">
             <Button
                 android:id="@+id/searchbtn"
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/buttonStr"
@@ -422,7 +422,7 @@
                 android:layout_gravity="center" />
             <Button
                 android:id="@+id/researchbtn"
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:text="@string/buttonResearch"
                 android:textStyle="bold"
@@ -444,12 +444,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="clip_horizontal">
             android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Markserach"
+                android:text="식별표시"
                 android:textSize="20dp"
                 android:textColor="@color/cardview_dark_background"/>
         </LinearLayout>
@@ -468,14 +468,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/TextFront"
-                    android:textSize="15dp"/>
+                    android:textSize="10dp"/>
                 <EditText
                     android:id="@+id/mark_front"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:hint="@string/markedit"
-                    android:textSize="15sp"/>
+                    android:textSize="10sp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -486,18 +486,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/TextBack"
-                    android:textSize="15dp"/>
+                    android:textSize="10dp"/>
                 <EditText
                     android:id="@+id/mark_Back"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:hint="@string/markedit"
-                    android:textSize="15sp"/>
+                    android:textSize="10sp"/>
             </LinearLayout>
             <Button
                 android:id="@+id/search_back"
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="@string/buttonStr"
